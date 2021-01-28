@@ -1,5 +1,3 @@
-C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -18,12 +16,14 @@ C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
@@ -44,3 +44,4 @@ C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.dll
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.pdb
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.genruntimeconfig.cache
+C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.csprojAssemblyReference.cache
