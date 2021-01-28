@@ -10,14 +10,14 @@
         public AlunoDisciplina(int alunoId, int disciplinaID)
         {
             AlunoId = alunoId;
-            DisciplinaID = disciplinaID;
+            DisciplinaId = disciplinaID;
         }
 
         public int AlunoId { get; set; }
 
         public Aluno Aluno { get; set; }
 
-        public int DisciplinaID { get; set; }
+        public int DisciplinaId { get; set; }
 
         public Disciplina Disciplina { get; set; }
     }

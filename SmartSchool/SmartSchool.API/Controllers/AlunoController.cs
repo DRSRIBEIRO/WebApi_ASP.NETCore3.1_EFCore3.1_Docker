@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SmartSchool.API.Data;
 using SmartSchool.API.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,41 +14,48 @@ namespace SmartSchool.API.Controllers
     [ApiController]
     public class AlunoController : ControllerBase
     {
-        public List<Aluno> Alunos = new List<Aluno>() {
-            new Aluno()
-            {
-                Id = 1,
-                Nome = "Solange",
-                Sobrenome = "Santos",
-                Telefone = "32418586"
-            },
-            new Aluno()
-            {
-                Id = 2,
-                Nome = "Tania",
-                Sobrenome = "Regina",
-                Telefone = "32411608"
-            },
-            new Aluno()
-            {
-                Id = 3,
-                Nome = "Geraldo",
-                Sobrenome = "Parreiras",
-                Telefone = "32412234"
-            },
-        };
+        private readonly SmartContext _context;
+
+        public AlunoController(SmartContext context)
+        {
+            _context = context;
+        }
+
+        //public List<Aluno> Alunos = new List<Aluno>() {
+        //    new Aluno()
+        //    {
+        //        Id = 1,
+        //        Nome = "Solange",
+        //        Sobrenome = "Santos",
+        //        Telefone = "32418586"
+        //    },
+        //    new Aluno()
+        //    {
+        //        Id = 2,
+        //        Nome = "Tania",
+        //        Sobrenome = "Regina",
+        //        Telefone = "32411608"
+        //    },
+        //    new Aluno()
+        //    {
+        //        Id = 3,
+        //        Nome = "Geraldo",
+        //        Sobrenome = "Parreiras",
+        //        Telefone = "32412234"
+        //    },
+        //};
 
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(Alunos);
+            return Ok(_context.Alunos);
         }
 
         // GET api/<AlunoController>/5
         [HttpGet("byId/{id}")]
         public IActionResult GetById(int id)
         {
-            var aluno = Alunos.FirstOrDefault(a => a.Id == id);
+            var aluno = _context.Alunos.FirstOrDefault(a => a.Id == id);
 
             if (aluno == null)
             {
@@ -60,7 +68,7 @@ namespace SmartSchool.API.Controllers
         [HttpGet("ByName")]
         public IActionResult GetByName(string nome, string sobrenome)
         {
-            var aluno = Alunos.FirstOrDefault(a => a.Nome.Contains(nome) && a.Sobrenome.Contains(sobrenome));
+            var aluno = _context.Alunos.FirstOrDefault(a => a.Nome.Contains(nome) && a.Sobrenome.Contains(sobrenome));
 
             if (aluno == null)
             {
