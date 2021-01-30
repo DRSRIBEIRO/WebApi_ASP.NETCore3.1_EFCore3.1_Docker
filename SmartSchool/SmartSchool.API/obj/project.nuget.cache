@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dW7fPCIO3ZqOgRgB2tVJ1aamrn+fq+c+o5GLjZO/m87d44XZc8TjxClCa9qfOmogeq5qI1CEcvfXXZKVlJtjig==",
+  "dgSpecHash": "hb42hyIBrna+XKQ0bEuwGUDcFaRMDgy1QAFyIVtVMShp10SmRRKDzOfmmk51n6EPChaoEMPk2allO2lLQKpGZg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -29,6 +31,8 @@
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",

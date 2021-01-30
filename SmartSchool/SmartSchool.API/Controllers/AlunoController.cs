@@ -30,7 +30,7 @@ namespace SmartSchool.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            var aluno = _repo.GetAllAlunoById(id, false);
+            var aluno = _repo.GetAlunoById(id, false);
 
             if (aluno == null)
             {
@@ -39,19 +39,6 @@ namespace SmartSchool.API.Controllers
 
             return Ok(aluno);
         }
-
-        //[HttpGet("ByName")]
-        //public IActionResult GetByName(string nome, string sobrenome)
-        //{
-        //    var aluno = _context.Alunos.FirstOrDefault(a => a.Nome.Contains(nome) && a.Sobrenome.Contains(sobrenome));
-
-        //    if (aluno == null)
-        //    {
-        //        return BadRequest("Aluno não foi encontrado");
-        //    }
-
-        //    return Ok(aluno);
-        //}
 
         [HttpPost]
         public IActionResult Post(Aluno aluno)
@@ -68,7 +55,7 @@ namespace SmartSchool.API.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(int id, Aluno aluno)
         {
-            var alu = _repo.GetAllAlunoById(id);
+            var alu = _repo.GetAlunoById(id);
             if (alu == null)
             {
                 return BadRequest("Aluno não encontrado");
@@ -86,7 +73,7 @@ namespace SmartSchool.API.Controllers
         [HttpPatch("{id}")]
         public IActionResult Patch(int id, Aluno aluno)
         {
-            var alu = _repo.GetAllAlunoById(id);
+            var alu = _repo.GetAlunoById(id);
             if (alu == null)
             {
                 return BadRequest("Aluno não encontrado");
@@ -104,7 +91,7 @@ namespace SmartSchool.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var aluno = _repo.GetAllAlunoById(id);
+            var aluno = _repo.GetAlunoById(id);
             if (aluno == null)
             {
                 return BadRequest("Aluno não encontrado");
