@@ -25,10 +25,10 @@ namespace SmartSchool.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public Task<IActionResult> Get()
         {
             var alunos = _repo.GetAllAlunos(true);
-            
+
             return Ok(_mapper.Map<IEnumerable<AlunoDto>>(alunos));
         }
 
