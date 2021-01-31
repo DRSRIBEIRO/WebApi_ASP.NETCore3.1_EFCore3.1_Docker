@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hb42hyIBrna+XKQ0bEuwGUDcFaRMDgy1QAFyIVtVMShp10SmRRKDzOfmmk51n6EPChaoEMPk2allO2lLQKpGZg==",
+  "dgSpecHash": "v/xv/oLoXSgsfsNJi6l0lzHGIX1cGhSLo6d4lLRDRYCZDMbEdtKs/95SCPNJUyOAWzDZ+xxmKXoJXs6KcP8hjw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
@@ -41,6 +43,7 @@
     "C:\\Users\\DRibeiro\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\DRibeiro\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\DRibeiro\\.nuget\\packages\\system.text.json\\4.7.0\\system.text.json.4.7.0.nupkg.sha512"
   ],
   "logs": []

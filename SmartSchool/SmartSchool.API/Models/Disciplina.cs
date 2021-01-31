@@ -9,12 +9,12 @@ namespace SmartSchool.API.Models
 
         }
 
-        public Disciplina(int id, string nome, int cursoId, int professorId)
+        public Disciplina(int id, string nome, int professorId, int cursoId)
         {
             Id = id;
             Nome = nome;
-            CursoId = cursoId;
             ProfessorId = professorId;
+            CursoId = cursoId;
         }
 
         public int Id { get; set; }
