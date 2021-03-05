@@ -1,3 +1,4 @@
+C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.csprojAssemblyReference.cache
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.AssemblyInfoInputs.cache
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.AssemblyInfo.cs
 C:\GitHub\WebApi_ASP.NETCore3.1_EFCore3.1_Docker\SmartSchool\SmartSchool.API\obj\Debug\netcoreapp3.1\SmartSchool.API.csproj.CoreCompileInputs.cache

@@ -26,6 +26,7 @@ namespace SmartSchool.API
                 context => context.UseSqlite(Configuration.GetConnectionString("Default"))
             );
 
+            //Chama as controllers
             services.AddControllers()
                 .AddNewtonsoftJson(
                 option => option.SerializerSettings.ReferenceLoopHandling = 
@@ -39,6 +40,7 @@ namespace SmartSchool.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Em mode de desenvolvimento caso ocorra alguma excecão, executa uma página de erro para debuger
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

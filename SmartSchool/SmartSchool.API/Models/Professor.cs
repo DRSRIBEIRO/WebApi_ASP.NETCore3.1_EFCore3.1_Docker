@@ -28,7 +28,6 @@ namespace SmartSchool.API.Models
         public DateTime DataInicio { get; set; } = DateTime.Now;
         public DateTime? DataFim { get; set; } = null;
         public bool Ativo { get; set; } = true;
-
         public IEnumerable<Disciplina> Disciplinas { get; set; }
     }
 }
